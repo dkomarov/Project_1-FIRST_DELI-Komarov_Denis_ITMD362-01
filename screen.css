@@ -246,22 +246,25 @@ textarea {
 	}
 	h1 { 
 		font-size: 19pt;
-		margin: 0.5em;
+		margin: 1em;
 		}
 	p {
-		margin: 0.25em;
+		margin: 0.5em;
 	}
 	label { 
 	display: block;
 	color: white;
 	background-color: gray;
-	margin: 1em;
+	margin: 0.5em;
 	font-size: 12pt;
   }
-  td {
+  tr {
+  	margin: auto;
+  }
+  td, #submit_button {
+    margin: 1em;
   	display: inline;
   	position: center;
-  	margin: auto;
   	}
 }
 
