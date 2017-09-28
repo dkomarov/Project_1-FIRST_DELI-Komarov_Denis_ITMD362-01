@@ -1,1 +1,1 @@
-# Project-1_FIRST_DELI_Komarov_Denis_ITMD362-01
+# Project_1-FIRST_DELI-Komarov_Denis_ITMD362-01
