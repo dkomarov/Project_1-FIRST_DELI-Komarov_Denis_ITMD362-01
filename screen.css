@@ -333,7 +333,7 @@ textarea {
 	td {
     margin: 1em;
   	display: inline-block;
-  		position: right;
+   position: right;
 	}
   
   #userForm {
@@ -354,8 +354,7 @@ textarea {
 		font-family: Calibri;
 		background-color: white;
 		color: red;
-		display: inline;
-		text-align: left;
+	  text-align: center;
 	}
 	h1 { 
 		font-size: 30pt;
@@ -371,24 +370,27 @@ textarea {
 	background-color: transparent;
 	margin: 1em;
 	font-size: 18pt;
+	text-align: center;
+	
+  }
+  
+    form {
+    	width: 100%;
+  	text-align: center;
+  	position: center;
   }
   
    tr {
   	margin: 0.1em;
-  	display: block;
-  	position: right;
+  	display: inline-block;
   }
   
 	td {
     margin: 1em;
   	display: inline-block;
-  		position: right;
 	}
   
- 
-  #userForm {
-  	width: 100%;
-  }
+  
   
   #submitButton {
   	padding: 1.5em;
