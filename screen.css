@@ -342,7 +342,7 @@ textarea {
   
   #submitButton {
   	padding: 1.5em;
-  	position: center;
+  	text-align: left;
   }
   
 }
