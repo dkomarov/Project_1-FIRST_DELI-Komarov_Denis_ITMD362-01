@@ -297,7 +297,7 @@ textarea {
 		font-family: Calibri;
 		background-color: green;
 		color: cyan;
-		display: inline;
+		text-align: left;
 	}
 	h1 { 
 		font-size: 25pt;
@@ -308,21 +308,26 @@ textarea {
 		margin: 2em;
 	}
 	
-	#userForm {
-  	display: inline-block;
-  	margin: auto;
-  	width: 75%;
-  	text-align: center;
-  	position: left;
-  }
   
 	label { 
-	color: cyan;
-	display: inline;
-	background-color: transparent;
-	margin: 1.5em;
-	font-size: 18pt;
+		color: cyan;
+		display: block;
+		background-color: transparent;
+		margin: 1.5em;
+		font-size: 18pt;
+ 		text-align: left;
   }
+  
+  form {
+  	display: block;
+  	margin: auto;
+  	text-align: left;
+  }
+  
+  #userForm {
+  	width: 75%;
+  }
+  
   #submit_button {
   	margin: 0.5em;
   	display: block;
@@ -338,6 +343,7 @@ textarea {
 		background-color: white;
 		color: red;
 		display: inline;
+		text-align: left;
 	}
 	h1 { 
 		font-size: 30pt;
@@ -354,13 +360,11 @@ textarea {
 	margin: 2em;
 	font-size: 18pt;
   }
+ 
   #userForm {
-  display: inline;
-  margin: auto;
-  width: 100%;
-  text-align: center;
-  position: left;
+  	width: 100%;
   }
+  
   #submit_button {
   	margin: 1em;
   	display: block;
