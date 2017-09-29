@@ -241,8 +241,13 @@ textarea {
 @media screen and (min-width: 320px) {
 	body {
 		text-align: center;
-		background-color: black;
 		color: white;
+		min-height: 100%;
+		text-shadow: 1.5px 1.5px black;
+		background: url("media/Devices.png") fixed; 
+		background-repeat: no-repeat;	
+		background-size: cover;
+		background-position: center;
 	}
 	
 	h1 { 
@@ -269,6 +274,7 @@ textarea {
   	width: 50%;
   	text-align: center;
   	position: center;
+  	
   }
   
  	tr {
@@ -295,9 +301,12 @@ textarea {
 @media screen and (min-width: 640px) {
 	body {
 		font-family: Calibri;
-		background-color: green;
 		color: cyan;
 		text-align: left;
+		background: url("media/Microsoft_Devices_Wallpaper.png") fixed; 
+		background-repeat: no-repeat;	
+		background-size: cover;
+		background-position: center;
 	}
 	h1 { 
 		font-size: 25pt;
@@ -327,13 +336,11 @@ textarea {
   tr {
   	margin: 0.1em;
   	display: inline-block;
-  	position: right;
   }
   
 	td {
     margin: 1em;
   	display: inline-block;
-   position: right;
 	}
   
   #userForm {
@@ -352,9 +359,13 @@ textarea {
 @media screen and (min-width: 960px) {
 	body {
 		font-family: Calibri;
-		background-color: white;
-		color: red;
+		color: yellow;
 	  text-align: center;
+	  background: url("media/Multicompany_devices.jpg") fixed; 
+		background-repeat: no-repeat;	
+		background-size: cover;
+		background-position: center;
+	  
 	}
 	h1 { 
 		font-size: 30pt;
@@ -365,7 +376,7 @@ textarea {
 		margin: 2.5em;
 	}
 	label { 
-	color: red;
+	color: yellow;
 	display: block;
 	background-color: transparent;
 	margin: 1em;
