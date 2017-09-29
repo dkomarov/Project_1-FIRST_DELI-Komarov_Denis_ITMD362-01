@@ -313,7 +313,7 @@ textarea {
 		color: cyan;
 		display: block;
 		background-color: transparent;
-		margin: 1.5em;
+		margin: .5em;
 		font-size: 18pt;
  		text-align: left;
   }
@@ -324,15 +324,27 @@ textarea {
   	text-align: left;
   }
   
+  tr {
+  	margin: 0.1em;
+  	display: inline-block;
+  	position: right;
+  }
+  
+	td {
+    margin: 1em;
+  	display: inline-block;
+  		position: right;
+	}
+  
   #userForm {
   	width: 75%;
   }
   
-  #submit_button {
-  	margin: 0.5em;
-  	display: block;
+  #submitButton {
+  	padding: 1.5em;
   	position: center;
   }
+  
 }
 
 /*Responsive Design
@@ -355,19 +367,32 @@ textarea {
 	}
 	label { 
 	color: red;
-	display: inline;
+	display: block;
 	background-color: transparent;
-	margin: 2em;
+	margin: 1em;
 	font-size: 18pt;
   }
+  
+   tr {
+  	margin: 0.1em;
+  	display: block;
+  	position: right;
+  }
+  
+	td {
+    margin: 1em;
+  	display: inline-block;
+  		position: right;
+	}
+  
  
   #userForm {
   	width: 100%;
   }
   
-  #submit_button {
-  	margin: 1em;
-  	display: block;
+  #submitButton {
+  	padding: 1.5em;
   	position: center;
   }
+  
 }
