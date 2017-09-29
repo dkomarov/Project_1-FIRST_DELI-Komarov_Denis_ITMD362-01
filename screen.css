@@ -244,36 +244,57 @@ textarea {
 		background-color: black;
 		color: white;
 	}
+	
 	h1 { 
-		font-size: 19pt;
-		margin: 1em;
-		}
-	p {
-		margin: 0.5em;
+		font-size: 20pt;
+		margin: 1.25em;
 	}
+	
+	p {
+	  font-size: 15pt;
+		margin: 0.75em;
+	}
+	
 	label { 
-	display: block;
-	color: white;
-	background-color: gray;
-	margin: 0.5em;
-	font-size: 12pt;
+		display: block;
+		color: white;
+		background-color: gray;
+		margin: 0.5em;
+		font-size: 12pt;
   }
-  tr {
+  
+  #userForm {
+  	display: inline-block;
   	margin: auto;
+  	width: 50%;
+  	text-align: center;
+  	position: center;
   }
-  td, #submit_button {
+  
+ 	tr {
+  margin: 0.1em;
+  display: inline;
+  position: center;
+  }
+  
+	td {
     margin: 1em;
   	display: inline;
   	position: center;
-  	}
+	}
+	
+  #submitButton {
+  	padding: 1.5em;
+  	position: center;
+  }
+  
 }
 
 /*Responsive Design
 	Tablets*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 640px) {
 	body {
 		font-family: Calibri;
-		text-align: left;
 		background-color: green;
 		color: cyan;
 		display: inline;
@@ -286,6 +307,15 @@ textarea {
 		font-size: 15pt;
 		margin: 2em;
 	}
+	
+	#userForm {
+  	display: inline-block;
+  	margin: auto;
+  	width: 75%;
+  	text-align: center;
+  	position: left;
+  }
+  
 	label { 
 	color: cyan;
 	display: inline;
@@ -305,7 +335,6 @@ textarea {
 @media screen and (min-width: 960px) {
 	body {
 		font-family: Calibri;
-		text-align: left;
 		background-color: white;
 		color: red;
 		display: inline;
@@ -324,6 +353,13 @@ textarea {
 	background-color: transparent;
 	margin: 2em;
 	font-size: 18pt;
+  }
+  #userForm {
+  display: inline;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  position: left;
   }
   #submit_button {
   	margin: 1em;
