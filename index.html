@@ -22,7 +22,7 @@
 						</label>
 					</td>
 					<td>
-						<input type = "text" placeholder = "MM-DD-YYYY">
+						<input type = "text" placeholder = "MM-DD-YYYY" maxlength="10" pattern="[A-Za-z0-9]{10}">
 					</td>
 				</tr>
 				<tr>
@@ -32,7 +32,7 @@
 						</label>
 					</td>
 					<td>
-						<input type = "text" placeholder = "First">
+						<input type = "text" placeholder = "First" maxlength="20" pattern="[A-Za-z]{20}">
 					</td>
 				</tr>
 				<tr>
@@ -42,7 +42,7 @@
 						</label>
 					</td>
 					<td>
-						<input type = "text" placeholder = "Last">
+						<input type = "text" placeholder = "Last" maxlength="30" pattern="[A-Za-z]{30}">
 					</td>
 				</tr>
 				<tr>
@@ -52,7 +52,7 @@
 						</label>
 					</td>
 					<td>
-						<input type = "email" placeholder = "user@service.ext">
+						<input type = "email" placeholder = "user@service.ext" maxlength="30" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
 					</td>
 				</tr>
 				<tr>
@@ -67,7 +67,7 @@
 							<option>773</option>
 							<option>872</option>
 						</select>
-							<input type = "tel" placeholder = "###-####">
+							<input type = "tel" placeholder = "###-####" maxlength="8" pattern="[0-9]{7}">
 						</td>
 					</tr>
 				</table>
