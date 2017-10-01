@@ -18,12 +18,14 @@
 				with the corresponding information. Then click "Submit" to complete the sign-up process. 
 				We look forward to working with you.
 				</p>
-				<div id = "Note">
+					</div>
+		
+				<div class = "note">
 				<p>NOTE: Providing your first & last name is optional. The same is true for your phone number. At minimum, we require
 				your date of birth and email address.
 				</p>
 				</div>
-			</div>
+		
 			<table>
 				<tr>
 					<td>
@@ -32,7 +34,7 @@
 						</label>
 					</td>
 					<td>
-						<input type = "date" id = "dob_field" required/>
+						<input type = "text" id = "dob_field" placeholder = "MM/DD/YYYY" maxlength="10" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" required/>
 					</td>
 				</tr>
 				<tr>
@@ -62,7 +64,7 @@
 						</label>
 					</td>
 					<td>
-						<input type = "email" name = "email_field" placeholder = "user@service.ext" maxlength="30" pattern="[^a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}+" required>
+						<input type = "email" name = "email_field" placeholder = "user@service.ext" maxlength="30" pattern="[^a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" required>
 					</td>
 				</tr>
 				<tr>
