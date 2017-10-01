@@ -291,10 +291,15 @@ textarea {
   	position: center;
 	}
 	
-	#Note {
-		font-size: 5pt!important;
+	#mq960 p {
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+	}
+	.note p {
+		font-size: 10pt;
 		color: yellow;
-		padding-bottom: 0em;
+		padding: 0em;
+		margin: 0em;
 	}
 	
   #submitButton {
