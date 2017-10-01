@@ -67,7 +67,7 @@ html {
 /* Sections
    ========================================================================== */
    
-/* Forms*****
+/* Forms
    ========================================================================== */
 
 /**
@@ -234,7 +234,14 @@ textarea {
 }
 
 
+/***************************/
+/***************************/
 /*START of PERSONAL STYLING*/
+/*START of PERSONAL STYLING*/
+/*START of PERSONAL STYLING*/
+/***************************/
+/***************************/
+
 
 /*Responsive Design
 	Smartphones*/
@@ -276,13 +283,12 @@ textarea {
   	width: 50%;
   	text-align: center;
   	position: center;
-  	
-  }
+   }
   
  	tr {
-  margin: 0.1em;
-  display: inline;
-  position: center;
+  	margin: 0.1em;
+  	display: inline;
+  	position: center;
   }
   
 	td {
@@ -292,8 +298,8 @@ textarea {
 	}
 	
 	#mq960 p {
-	margin-bottom: 0.5em;
-	padding-bottom: 0.5em;
+		margin-bottom: 0.5em;
+		padding-bottom: 0.5em;
 	}
 	.note p {
 		font-size: 10pt;
@@ -315,8 +321,7 @@ textarea {
   	height: 100px;
   	width: 80px;
   }
-
-  
+ 
 }
 
 /*Responsive Design
@@ -330,16 +335,17 @@ textarea {
 		background-size: cover;
 		background-position: center;
 	}
+	
 	h1 { 
 		font-size: 25pt;
 		margin: 1em;
 		}
+		
 	p {
 		font-size: 15pt;
 		margin: 2em;
 	}
 	
-  
 	label { 
 		color: cyan;
 		display: block;
@@ -370,14 +376,11 @@ textarea {
   }
   
  #validCSSicon {
-
   	margin: auto;
   	width: 100%;
   	text-align: left;
-  
   }
   
-
   #submitButton {
   	padding: 2em;
   	text-align: left;
@@ -392,20 +395,22 @@ textarea {
 		font-family: Calibri;
 		color: lime;
 	  text-align: center;
-	  background: url("media/Multicompany_devices.jpg") fixed; 
+	  background: url("media/Multicompany_Devices.jpg") fixed; 
 		background-repeat: no-repeat;	
 		background-size: cover;
 		background-position: center;
-	  
 	}
+	
 	h1 { 
 		font-size: 23pt;
 		margin: 0.75em;
 		}
+		
 	p {
 		font-size: 16pt;
 		margin: 3em;
 	}
+	
 	label { 
 	color: lime;
 	display: block;
@@ -413,7 +418,6 @@ textarea {
 	margin: 1em;
 	font-size: 18pt;
 	text-align: center;
-	
   }
   
   form {
@@ -426,7 +430,7 @@ textarea {
   	padding: 10em;
   }
   
-   tr {
+  tr {
   	margin: 0.1em;
   	display: inline-block;
   }
@@ -436,22 +440,18 @@ textarea {
   	display: inline-block;
 	}
 	
-	
-	 #mq960 {
+ #mq960 {
   	padding-top: 4.5em;
   	padding-bottom: 0em;
   }
   
-  
   #submitButton {
   	padding: 3em;
   	margin: auto;
-  	text-align: center;
-  	
+  	text-align: center;	
   }
-  
-      
-   #validCSSicon {
+
+	#validCSSicon {
   	margin: auto;
   	text-align: center;
   	width: 100%;
