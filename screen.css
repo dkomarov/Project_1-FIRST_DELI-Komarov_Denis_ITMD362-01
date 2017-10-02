@@ -403,12 +403,12 @@ textarea {
 	
 	h1 { 
 		font-size: 23pt;
-		margin: 0.75em;
+		margin: 0em;
 		}
 		
 	p {
 		font-size: 16pt;
-		margin: 3em;
+		margin: 2.5em;
 	}
 	
 	label { 
@@ -439,6 +439,11 @@ textarea {
     margin: 0.5em;
   	display: inline-block;
 	}
+	
+	.we p {
+	margin: 1em;
+	padding: 2em;
+	}	
 	
  #mq960 {
   	padding-top: 4.5em;
